@@ -4,7 +4,7 @@ body{
     background-position: center;
 }
 
-h1, h2, p, figcaption{
+h1, h2, h3, p, figcaption{
     font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -17,6 +17,12 @@ h1{
 h2{
     font-size: 4vw;
     color: rgb(112, 202, 255);
+}
+
+h3{
+    color: rgb(112, 202, 255);
+    background-color: black;
+    width: fit-content;
 }
 
 p{
