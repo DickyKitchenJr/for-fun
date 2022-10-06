@@ -1,6 +1,6 @@
 body{
     background-image: url(./images/heart-sparkler.jpg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 
