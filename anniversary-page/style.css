@@ -11,12 +11,17 @@ h1, h2, h3, p, figcaption{
 h1{
     color: rgb(112, 202, 255);
     text-align: center;
-    font-size: 5vw;
+    font-size: 2.15rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 h2{
-    font-size: 4vw;
+    font-size: 1.25rem;
     color: rgb(112, 202, 255);
+    font-style: italic;
+    background-color: black;
+    width: fit-content;
 }
 
 h3{
@@ -29,24 +34,29 @@ p{
     color: rgb(112, 202, 255);
     text-align: center;
     width: fit-content;
-    margin: auto;
-    padding-top: .75vw;
-    padding-bottom: .75vw;
+    margin: 2rem auto;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
     backdrop-filter: blur(20px);
     box-shadow: inset 0 0 0 200px rgba(255,255,255,0.08);
-    font-size: 2.6vw;
+    font-size: 1.15rem;
     font-weight: bold;
 }
 
 span{
     color: rgb(214, 249, 73);
-    font-size: 2vw;
+    font-size: .75rem;
 }
 
 .young-dk{
     display: block;
-    width: 20rem;
+    width: 60%;
     margin: auto;
+}
+
+figure{
+    margin: 1rem auto;
+    padding: 1.25rem 0rem;
 }
 
 figcaption{
@@ -56,5 +66,5 @@ figcaption{
     margin: auto;
     backdrop-filter: blur(20px);
     box-shadow: inset 0 0 0 200px rgba(184, 184, 184, 0.3);
-    font-size: 2.3vw;
+    font-size: .75rem;
 }
