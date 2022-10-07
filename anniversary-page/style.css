@@ -1,70 +1,74 @@
-body{
-    background-image: url(./images/heart-sparkler.jpg);
-    background-size: contain;
-    background-position: center;
+body {
+  background-image: url(./images/heart-sparkler.jpg);
+  background-size: contain;
+  background-position: center;
 }
 
-h1, h2, h3, p, figcaption{
-    font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+h1,
+h2,
+h3,
+p,
+figcaption {
+  font-family: Garamond, Georgia, "Times New Roman", Times, serif;
 }
 
-h1{
-    color: rgb(112, 202, 255);
-    text-align: center;
-    font-size: 2.15rem;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+h1 {
+  color: rgb(112, 202, 255);
+  text-align: center;
+  font-size: 2.15rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
-h2{
-    font-size: 1.25rem;
-    color: rgb(112, 202, 255);
-    font-style: italic;
-    background-color: black;
-    width: fit-content;
+h2 {
+  font-size: 1.25rem;
+  color: rgb(112, 202, 255);
+  font-style: italic;
+  background-color: black;
+  width: fit-content;
 }
 
-h3{
-    color: rgb(112, 202, 255);
-    background-color: black;
-    width: fit-content;
+h3 {
+  color: rgb(112, 202, 255);
+  background-color: black;
+  width: fit-content;
 }
 
-p{
-    color: rgb(112, 202, 255);
-    text-align: center;
-    width: fit-content;
-    margin: 2rem auto;
-    padding-top: .75rem;
-    padding-bottom: .75rem;
-    backdrop-filter: blur(20px);
-    box-shadow: inset 0 0 0 200px rgba(255,255,255,0.08);
-    font-size: 1.15rem;
-    font-weight: bold;
+p {
+  color: rgb(112, 202, 255);
+  text-align: center;
+  width: fit-content;
+  margin: 2rem auto;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  backdrop-filter: blur(20px);
+  box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.08);
+  font-size: 1.15rem;
+  font-weight: bold;
 }
 
-span{
-    color: rgb(214, 249, 73);
-    font-size: .75rem;
+span {
+  color: rgb(214, 249, 73);
+  font-size: 0.75rem;
 }
 
-.young-dk{
-    display: block;
-    width: 60%;
-    margin: auto;
+.young-dk {
+  display: block;
+  width: 60%;
+  margin: auto;
 }
 
-figure{
-    margin: 1rem auto;
-    padding: 1.25rem 0rem;
+figure {
+  margin: 1rem auto;
+  padding: 1.25rem 0rem;
 }
 
-figcaption{
-    color: rgb(214, 249, 73);
-    text-align: center;
-    width: fit-content;
-    margin: auto;
-    backdrop-filter: blur(20px);
-    box-shadow: inset 0 0 0 200px rgba(184, 184, 184, 0.3);
-    font-size: .75rem;
+figcaption {
+  color: rgb(214, 249, 73);
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  backdrop-filter: blur(20px);
+  box-shadow: inset 0 0 0 200px rgba(184, 184, 184, 0.3);
+  font-size: 0.75rem;
 }
